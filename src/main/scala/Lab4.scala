@@ -6,7 +6,7 @@ object Lab4 extends jsy.util.JsyApplication {
    * CSCI 3155: Lab 4
    * <Callan Fisher>
    * 
-   * Partner: <Dan Nolan>
+   * Partner: <Dan Palmer>
    * Collaborators: <Any Collaborators>
    */
   /*
@@ -43,7 +43,7 @@ object Lab4 extends jsy.util.JsyApplication {
   def compressFold[A](l: List[A]): List[A] = l.foldRight(Nil: List[A]){
     (h, acc) => acc match { 
       case Nil => if (h != Nil) h::acc else acc
-      case a::c => if (a != h) h::acc else acc
+      case h1 :: t => if (h == h1) acc else h :: acc
     }
   }
   
@@ -68,12 +68,11 @@ object Lab4 extends jsy.util.JsyApplication {
     def foldLeft[A](z: A)(f: (A, Int) => A): A = {
       def loop(acc: A, t: Tree): A = t match {
         case Empty => acc
-        case Node(l, d, r) => loop( f ( loop (acc, l), d), r)
+        case Node(l, d, r) => loop(f(loop(acc, l),d),r)
       }
       loop(z, this)
     }
-    
-    
+        
     
     def pretty: String = {
       def p(acc: String, t: Tree, indent: Int): String = t match {
@@ -95,7 +94,8 @@ object Lab4 extends jsy.util.JsyApplication {
   
   def strictlyOrdered(t: Tree): Boolean = {
     val (b, _) = t.foldLeft((true, None: Option[Int])){
-      throw new UnsupportedOperationException
+      case((acc, None), ele) => ((acc && true), Some(ele):Option[Int])
+      case((acc, Some(ele1)), ele) => if(ele1 < ele) ((acc && true), None) else ((acc && false), None)
     }
     b
   }

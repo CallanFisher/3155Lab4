@@ -2,27 +2,27 @@
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/Users/callanfisher/Desktop/3155Lab4/lab4/src/main/scala/Lab4.scala)[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set(/Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$1.class, /Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes/Lab4$Empty$.class, /Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$processFile$2.class, /Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes/Lab4$Tree.class, /Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes/Lab4.class, /Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$processFile$1.class, /Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes/Lab4$.class, /Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$step$1.class, /Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$compressFold$1.class, /Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$2.class, /Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$hasFunctionTyp$1.class, /Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$sum$1.class, /Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$treeFromList$1.class, /Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes/Lab4$Node.class, /Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes/Lab4$Node$.class)[0m
+[0m[[0mdebug[0m] [0m	modified: Set(C:\Users\Owner\Documents\Y3_S1\Principles of langs\lab4\3155Lab4\src\main\scala\Lab4.scala)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/callanfisher/Desktop/3155Lab4/lab4/src/main/scala/Lab4.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\Users\Owner\Documents\Y3_S1\Principles of langs\lab4\3155Lab4\src\main\scala\Lab4.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set(/Users/callanfisher/Desktop/3155Lab4/lab4/src/main/scala/Lab4.scala)[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/callanfisher/Desktop/3155Lab4/lab4/src/main/scala/Lab4.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\Owner\Documents\Y3_S1\Principles of langs\lab4\3155Lab4\src\main\scala\Lab4.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to C:\Users\Owner\Documents\Y3_S1\Principles of langs\lab4\3155Lab4\target\scala-2.10\classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 3383bff8, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 3a2dbd76, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
-[0m[[0mdebug[0m] [0m	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/Users/callanfisher/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes;C:\Users\Owner\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.3.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/Users/callanfisher/Desktop/3155Lab4/lab4/target/scala-2.10/classes:/Users/callanfisher/Desktop/3155Lab4/lab4/lib/liblab4.jar:/Users/callanfisher/Desktop/3155Lab4/lab4/lib/scalatest_2.10-2.0.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 23.82482 s[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Owner\Documents\Y3_S1\Principles of langs\lab4\3155Lab4\target\scala-2.10\classes;C:\Users\Owner\Documents\Y3_S1\Principles of langs\lab4\3155Lab4\lib\liblab4.jar;C:\Users\Owner\Documents\Y3_S1\Principles of langs\lab4\3155Lab4\lib\scalatest_2.10-2.0.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 15.554626451 s[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

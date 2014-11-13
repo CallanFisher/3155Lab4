@@ -7,16 +7,4 @@
 [0m[[0minfo[0m] [0m[32mfoldLeft[0m[0m
 [0m[[0minfo[0m] [0m[32m- should enable implementing treeFromList and sum[0m[0m
 [0m[[0minfo[0m] [0m[32mstrictlyOrdered[0m[0m
-[0m[[0minfo[0m] [0m[31m- should check strict ordering of a binary search tree *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  java.lang.UnsupportedOperationException:[0m[0m
-[0m[[0minfo[0m] [0m[31m  at Lab4$.strictlyOrdered(Lab4.scala:98)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at Lab4Spec$$anonfun$4.apply$mcV$sp(Lab4Spec.scala:29)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at Lab4Spec$$anonfun$4.apply(Lab4Spec.scala:28)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at Lab4Spec$$anonfun$4.apply(Lab4Spec.scala:28)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply(Transformer.scala:22)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply(Transformer.scala:22)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
-[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check strict ordering of a binary search tree[0m[0m
