@@ -141,8 +141,13 @@ object Lab4 extends jsy.util.JsyApplication {
         case (TString, tgot) => err(tgot, e2)
         case (tgot, _) => err(tgot, e1)
       }
-      case Binary(Minus|Times|Div, e1, e2) => 
-        throw new UnsupportedOperationException
+      case Binary(Minus|Times|Div, e1, e2) => (typ(e1), typ(e2)) match { 
+        case (TNumber, TNumber) => TNumber
+        case (TString, tgot) => err(tgot, e2)
+        case (tgot, _) => err(tgot, e1)
+      }
+
+
       case Binary(Eq|Ne, e1, e2) =>
         throw new UnsupportedOperationException
       case Binary(Lt|Le|Gt|Ge, e1, e2) =>
