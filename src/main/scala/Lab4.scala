@@ -36,8 +36,8 @@ object Lab4 extends jsy.util.JsyApplication {
   /* Lists */
   
   def compressRec[A](l: List[A]): List[A] = l match {
-    case Nil | _ :: Nil => Nil
-    case h1 :: (t1 @ (h2 :: c)) => if (h1 == h2)(compressRec(c)) else h1::compressRec(t1)
+    case Nil | _ :: Nil => l
+    case h1 :: (t1 @ (h2 :: _)) => if (h1 == h2)(compressRec(t1)) else h1::compressRec(t1)
   }
   
   def compressFold[A](l: List[A]): List[A] = l.foldRight(Nil: List[A]){
@@ -130,12 +130,17 @@ object Lab4 extends jsy.util.JsyApplication {
         case tgot => err(tgot, e1)
       }
       case Unary(Not, e1) =>typ(e1) match {
-        case TNumber => TNumber
+        case TBool => TBool
         case tgot => err(tgot, e1)
       }
         
-      case Binary(Plus, e1, e2) =>
-        throw new UnsupportedOperationException
+      case Binary(Plus, e1, e2) => (typ(e1),typ(e2)) match{
+        case (TNumber, TNumber) => TNumber
+        case (TString, TString) => TString
+        case (TNumber, tgot) => err(tgot, e2)
+        case (TString, tgot) => err(tgot, e2)
+        case (tgot, _) => err(tgot, e1)
+      }
       case Binary(Minus|Times|Div, e1, e2) => 
         throw new UnsupportedOperationException
       case Binary(Eq|Ne, e1, e2) =>
