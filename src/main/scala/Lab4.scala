@@ -7,7 +7,7 @@ object Lab4 extends jsy.util.JsyApplication {
    * <Callan Fisher>
    * 
    * Partner: <Dan Palmer>
-   * Collaborators: <Any Collaborators>
+   * Collaborators: Dan Mathews
    */
   /*
    * Fill in the appropriate portions above by replacing things delimited
